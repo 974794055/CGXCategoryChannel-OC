@@ -1,0 +1,16 @@
+PODS:
+  - CGXCategoryChannel (0.1)
+
+DEPENDENCIES:
+  - CGXCategoryChannel (from `../`)
+
+EXTERNAL SOURCES:
+  CGXCategoryChannel:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CGXCategoryChannel: af13158f6418088191d03760142fea8285b94cd3
+
+PODFILE CHECKSUM: b64f9991df55f2291c80790be6944f2a9c6f339c
+
+COCOAPODS: 1.9.3

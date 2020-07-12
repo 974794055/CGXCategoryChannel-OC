@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0051D04F8F742E9CF6046E4F15F4F674 /* CGXCategoryChannelMoreControll.m in Sources */ = {isa = PBXBuildFile; fileRef = 32910EC64069CEBAC5862A2EC7B53C52 /* CGXCategoryChannelMoreControll.m */; };
+		1CE70BB90E9066C7EE265826A970DD5F /* CGXCategoryChannelModel.h in Headers */ = {isa = PBXBuildFile; fileRef = CD6CCC0C36EEA6E9C396CC3ACC6D6E90 /* CGXCategoryChannelModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		4CA98C7A062590DF932EBD7DE2AFA2C9 /* CGXCategoryChannelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 33585F185B46C7612D86AD2C838BC014 /* CGXCategoryChannelCell.m */; };
+		512689E3344A78C54CF34F3A9750D4C1 /* CGXCategoryChannelDragCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 337824DED436208AC6E0AC881E340C5E /* CGXCategoryChannelDragCollectionView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55F74117176C83790335192C74016F4C /* CGXCategoryChannelCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F8F408A7456847FEDCA14B5B5CB538 /* CGXCategoryChannelCell.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		578A3832A34E3D7FE32A798932F5D35D /* CGXCategoryChannel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E155A162B21A9725B7FA92967B99021 /* CGXCategoryChannel-dummy.m */; };
+		5E1A02DCFECFFCBC50E9B284DE57BA81 /* CGXCategoryChannelControll.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F5987C2466BE048A0B3C71BEB563F0 /* CGXCategoryChannelControll.m */; };
+		7AE109D204928001FB6A863EB631A0D3 /* CGXCategoryChannelControll.h in Headers */ = {isa = PBXBuildFile; fileRef = B02212D1CBD131ED38B740DFEE275D52 /* CGXCategoryChannelControll.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		89C5249AD3756D0E4668E899B51221A7 /* CGXCategoryChannelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54773CFB3946AA9381151FAF9469E2B8 /* CGXCategoryChannelViewController.m */; };
+		9737B2FCB93B7B1E38CAE33483386A58 /* CGXCategoryChannelView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4591D0F0135815369BDF8D0DE368B53 /* CGXCategoryChannelView.m */; };
+		99806138B4B774B571ABBD949BC45EA9 /* CGXCategoryChannelMoreControll.h in Headers */ = {isa = PBXBuildFile; fileRef = B73CE0A214A8BB90E41556FB20CBE8B9 /* CGXCategoryChannelMoreControll.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		BA94E877DCB3599BDBF7C91292E85277 /* CGXCategoryChannelViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ECBBEBD7E5E33D9F4A1F4B13A2788E7 /* CGXCategoryChannelViewController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C32B8BAE97CF929C4209D526657853A3 /* CGXCategoryChannelHeaderView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C63F0E2D2BE95B6C2ADE22D8333143F /* CGXCategoryChannelHeaderView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CA4287B4FA4FD8F771B7359968A53CB8 /* CGXCategoryChannelHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B22A79DEA7DA63388269E427558B78 /* CGXCategoryChannelHeaderView.m */; };
+		CA54FA638F504797661F6B8C37E6DC4D /* CGXCategoryChannelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B11C843103F2F34E61A31FF99E6C535 /* CGXCategoryChannelModel.m */; };
+		DDBC49EF350574D82B3A0F4749D5AB85 /* CGXCategoryChannelDragCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF16DD7CEDEC6FAFB7842A4648A5562C /* CGXCategoryChannelDragCollectionView.m */; };
+		E92891721F57FD1C524AE295142620DF /* CGXCategoryChannelView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CFEAA771CA6674D27AA3DDABC7FE210 /* CGXCategoryChannelView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FAB53DD44C14E7A8B213017A9EED4040 /* Pods-CGXCategoryChannel-OC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3F76EA51DAD9F339D28E6900B8BB24 /* Pods-CGXCategoryChannel-OC-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE3D93CCF5344A0D0752DD08F5C8C8C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E179F625901FD17A984E502AA0BD0606;
+			remoteInfo = CGXCategoryChannel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B22A79DEA7DA63388269E427558B78 /* CGXCategoryChannelHeaderView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXCategoryChannelHeaderView.m; path = CGXCategoryChannel/CGXCategoryChannelHeaderView.m; sourceTree = "<group>"; };
+		0B3F76EA51DAD9F339D28E6900B8BB24 /* Pods-CGXCategoryChannel-OC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CGXCategoryChannel-OC-dummy.m"; sourceTree = "<group>"; };
+		2996058E6F1A8B5486103F52D7D4C542 /* Pods-CGXCategoryChannel-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGXCategoryChannel-OC.debug.xcconfig"; sourceTree = "<group>"; };
+		32910EC64069CEBAC5862A2EC7B53C52 /* CGXCategoryChannelMoreControll.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXCategoryChannelMoreControll.m; path = CGXCategoryChannel/CGXCategoryChannelMoreControll.m; sourceTree = "<group>"; };
+		33585F185B46C7612D86AD2C838BC014 /* CGXCategoryChannelCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXCategoryChannelCell.m; path = CGXCategoryChannel/CGXCategoryChannelCell.m; sourceTree = "<group>"; };
+		337824DED436208AC6E0AC881E340C5E /* CGXCategoryChannelDragCollectionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXCategoryChannelDragCollectionView.h; path = CGXCategoryChannel/CGXCategoryChannelDragCollectionView.h; sourceTree = "<group>"; };
+		4C63F0E2D2BE95B6C2ADE22D8333143F /* CGXCategoryChannelHeaderView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXCategoryChannelHeaderView.h; path = CGXCategoryChannel/CGXCategoryChannelHeaderView.h; sourceTree = "<group>"; };
+		54773CFB3946AA9381151FAF9469E2B8 /* CGXCategoryChannelViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXCategoryChannelViewController.m; path = CGXCategoryChannel/CGXCategoryChannelViewController.m; sourceTree = "<group>"; };
+		5ECBBEBD7E5E33D9F4A1F4B13A2788E7 /* CGXCategoryChannelViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXCategoryChannelViewController.h; path = CGXCategoryChannel/CGXCategoryChannelViewController.h; sourceTree = "<group>"; };
+		614D6FCC95568BCF210451806E637706 /* CGXCategoryChannel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGXCategoryChannel.release.xcconfig; sourceTree = "<group>"; };
+		656067804CD55E9A62FB886E478AFD43 /* CGXCategoryChannel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CGXCategoryChannel.debug.xcconfig; sourceTree = "<group>"; };
+		7F84C9E395A6D2DB964E0EA0126C2F86 /* CGXCategoryChannel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CGXCategoryChannel-prefix.pch"; sourceTree = "<group>"; };
+		809A611F5403541226A70A4E8A4F4ED9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		82F5987C2466BE048A0B3C71BEB563F0 /* CGXCategoryChannelControll.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXCategoryChannelControll.m; path = CGXCategoryChannel/CGXCategoryChannelControll.m; sourceTree = "<group>"; };
+		8E155A162B21A9725B7FA92967B99021 /* CGXCategoryChannel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CGXCategoryChannel-dummy.m"; sourceTree = "<group>"; };
+		9B11C843103F2F34E61A31FF99E6C535 /* CGXCategoryChannelModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXCategoryChannelModel.m; path = CGXCategoryChannel/CGXCategoryChannelModel.m; sourceTree = "<group>"; };
+		9CFEAA771CA6674D27AA3DDABC7FE210 /* CGXCategoryChannelView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXCategoryChannelView.h; path = CGXCategoryChannel/CGXCategoryChannelView.h; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A63C62628407641F22EE701412672B73 /* Pods-CGXCategoryChannel-OC-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CGXCategoryChannel-OC-acknowledgements.plist"; sourceTree = "<group>"; };
+		A64F915B6BB4A9DE8901B848F3D45952 /* libCGXCategoryChannel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCGXCategoryChannel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B02212D1CBD131ED38B740DFEE275D52 /* CGXCategoryChannelControll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXCategoryChannelControll.h; path = CGXCategoryChannel/CGXCategoryChannelControll.h; sourceTree = "<group>"; };
+		B0F8F408A7456847FEDCA14B5B5CB538 /* CGXCategoryChannelCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXCategoryChannelCell.h; path = CGXCategoryChannel/CGXCategoryChannelCell.h; sourceTree = "<group>"; };
+		B4591D0F0135815369BDF8D0DE368B53 /* CGXCategoryChannelView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXCategoryChannelView.m; path = CGXCategoryChannel/CGXCategoryChannelView.m; sourceTree = "<group>"; };
+		B73CE0A214A8BB90E41556FB20CBE8B9 /* CGXCategoryChannelMoreControll.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXCategoryChannelMoreControll.h; path = CGXCategoryChannel/CGXCategoryChannelMoreControll.h; sourceTree = "<group>"; };
+		B8B5330D7EBF28D57FE07FB29E298759 /* Pods-CGXCategoryChannel-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CGXCategoryChannel-OC.release.xcconfig"; sourceTree = "<group>"; };
+		BDD8277EB8458BF013930B99C3254646 /* libPods-CGXCategoryChannel-OC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CGXCategoryChannel-OC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF16DD7CEDEC6FAFB7842A4648A5562C /* CGXCategoryChannelDragCollectionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CGXCategoryChannelDragCollectionView.m; path = CGXCategoryChannel/CGXCategoryChannelDragCollectionView.m; sourceTree = "<group>"; };
+		CD6CCC0C36EEA6E9C396CC3ACC6D6E90 /* CGXCategoryChannelModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CGXCategoryChannelModel.h; path = CGXCategoryChannel/CGXCategoryChannelModel.h; sourceTree = "<group>"; };
+		EBE5A2DBE9093107E72C923ED0D3B0E7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F4B792C4E25E60BD86096CB2EAA45977 /* Pods-CGXCategoryChannel-OC-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CGXCategoryChannel-OC-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F9DEF7006980BA77684DE265D2B8DBAB /* CGXCategoryChannel.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CGXCategoryChannel.podspec; sourceTree = "<group>"; tabWidth = 2; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		779C1AD5DE6ED7D5F9371AB39AED4E47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB17AAC27F0F4580C92FFDD0C7EFEAEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0290EE33CD0D8AA3302CCE55BE6CDE89 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F9DEF7006980BA77684DE265D2B8DBAB /* CGXCategoryChannel.podspec */,
+				EBE5A2DBE9093107E72C923ED0D3B0E7 /* LICENSE */,
+				809A611F5403541226A70A4E8A4F4ED9 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		800518B366F5C0351628126AF094F9F3 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC56C8E93B0CAE30220817600E71E3CC /* CGXCategoryChannel */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8E12167A6A02C7897999EB155A10CA81 /* Pods-CGXCategoryChannel-OC */ = {
+			isa = PBXGroup;
+			children = (
+				F4B792C4E25E60BD86096CB2EAA45977 /* Pods-CGXCategoryChannel-OC-acknowledgements.markdown */,
+				A63C62628407641F22EE701412672B73 /* Pods-CGXCategoryChannel-OC-acknowledgements.plist */,
+				0B3F76EA51DAD9F339D28E6900B8BB24 /* Pods-CGXCategoryChannel-OC-dummy.m */,
+				2996058E6F1A8B5486103F52D7D4C542 /* Pods-CGXCategoryChannel-OC.debug.xcconfig */,
+				B8B5330D7EBF28D57FE07FB29E298759 /* Pods-CGXCategoryChannel-OC.release.xcconfig */,
+			);
+			name = "Pods-CGXCategoryChannel-OC";
+			path = "Target Support Files/Pods-CGXCategoryChannel-OC";
+			sourceTree = "<group>";
+		};
+		9F48DDC090B80009A74336374A372339 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E155A162B21A9725B7FA92967B99021 /* CGXCategoryChannel-dummy.m */,
+				7F84C9E395A6D2DB964E0EA0126C2F86 /* CGXCategoryChannel-prefix.pch */,
+				656067804CD55E9A62FB886E478AFD43 /* CGXCategoryChannel.debug.xcconfig */,
+				614D6FCC95568BCF210451806E637706 /* CGXCategoryChannel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "CGXCategoryChannel-OC/Pods/Target Support Files/CGXCategoryChannel";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				800518B366F5C0351628126AF094F9F3 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				D485202F9A4BCDEFE31E20C34BB18E83 /* Products */,
+				D0A0E33F78ADE45058FD58FEC304FDA8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0A0E33F78ADE45058FD58FEC304FDA8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E12167A6A02C7897999EB155A10CA81 /* Pods-CGXCategoryChannel-OC */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D485202F9A4BCDEFE31E20C34BB18E83 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A64F915B6BB4A9DE8901B848F3D45952 /* libCGXCategoryChannel.a */,
+				BDD8277EB8458BF013930B99C3254646 /* libPods-CGXCategoryChannel-OC.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC56C8E93B0CAE30220817600E71E3CC /* CGXCategoryChannel */ = {
+			isa = PBXGroup;
+			children = (
+				B0F8F408A7456847FEDCA14B5B5CB538 /* CGXCategoryChannelCell.h */,
+				33585F185B46C7612D86AD2C838BC014 /* CGXCategoryChannelCell.m */,
+				B02212D1CBD131ED38B740DFEE275D52 /* CGXCategoryChannelControll.h */,
+				82F5987C2466BE048A0B3C71BEB563F0 /* CGXCategoryChannelControll.m */,
+				337824DED436208AC6E0AC881E340C5E /* CGXCategoryChannelDragCollectionView.h */,
+				BF16DD7CEDEC6FAFB7842A4648A5562C /* CGXCategoryChannelDragCollectionView.m */,
+				4C63F0E2D2BE95B6C2ADE22D8333143F /* CGXCategoryChannelHeaderView.h */,
+				01B22A79DEA7DA63388269E427558B78 /* CGXCategoryChannelHeaderView.m */,
+				CD6CCC0C36EEA6E9C396CC3ACC6D6E90 /* CGXCategoryChannelModel.h */,
+				9B11C843103F2F34E61A31FF99E6C535 /* CGXCategoryChannelModel.m */,
+				B73CE0A214A8BB90E41556FB20CBE8B9 /* CGXCategoryChannelMoreControll.h */,
+				32910EC64069CEBAC5862A2EC7B53C52 /* CGXCategoryChannelMoreControll.m */,
+				9CFEAA771CA6674D27AA3DDABC7FE210 /* CGXCategoryChannelView.h */,
+				B4591D0F0135815369BDF8D0DE368B53 /* CGXCategoryChannelView.m */,
+				5ECBBEBD7E5E33D9F4A1F4B13A2788E7 /* CGXCategoryChannelViewController.h */,
+				54773CFB3946AA9381151FAF9469E2B8 /* CGXCategoryChannelViewController.m */,
+				0290EE33CD0D8AA3302CCE55BE6CDE89 /* Pod */,
+				9F48DDC090B80009A74336374A372339 /* Support Files */,
+			);
+			name = CGXCategoryChannel;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		817A61BBE0883E444CDC2D9C9CBE6A5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8FAB1B6D25FBF32D1E1F4B0E38956FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F74117176C83790335192C74016F4C /* CGXCategoryChannelCell.h in Headers */,
+				7AE109D204928001FB6A863EB631A0D3 /* CGXCategoryChannelControll.h in Headers */,
+				512689E3344A78C54CF34F3A9750D4C1 /* CGXCategoryChannelDragCollectionView.h in Headers */,
+				C32B8BAE97CF929C4209D526657853A3 /* CGXCategoryChannelHeaderView.h in Headers */,
+				1CE70BB90E9066C7EE265826A970DD5F /* CGXCategoryChannelModel.h in Headers */,
+				99806138B4B774B571ABBD949BC45EA9 /* CGXCategoryChannelMoreControll.h in Headers */,
+				E92891721F57FD1C524AE295142620DF /* CGXCategoryChannelView.h in Headers */,
+				BA94E877DCB3599BDBF7C91292E85277 /* CGXCategoryChannelViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		081D37EC77D20448533866A8DBA9EA49 /* Pods-CGXCategoryChannel-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5DF9AFA3B57C2A6292B0141D62F9A79D /* Build configuration list for PBXNativeTarget "Pods-CGXCategoryChannel-OC" */;
+			buildPhases = (
+				817A61BBE0883E444CDC2D9C9CBE6A5D /* Headers */,
+				7516FCAC225E130391090A92863633B8 /* Sources */,
+				CB17AAC27F0F4580C92FFDD0C7EFEAEF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA78B61B3F8465940976C58BD889FE4 /* PBXTargetDependency */,
+			);
+			name = "Pods-CGXCategoryChannel-OC";
+			productName = "Pods-CGXCategoryChannel-OC";
+			productReference = BDD8277EB8458BF013930B99C3254646 /* libPods-CGXCategoryChannel-OC.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E179F625901FD17A984E502AA0BD0606 /* CGXCategoryChannel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D680670A700F4336D273E6589DEAC1F8 /* Build configuration list for PBXNativeTarget "CGXCategoryChannel" */;
+			buildPhases = (
+				E8FAB1B6D25FBF32D1E1F4B0E38956FA /* Headers */,
+				488823D420CE2DCE89E358EC4638C4FC /* Sources */,
+				779C1AD5DE6ED7D5F9371AB39AED4E47 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGXCategoryChannel;
+			productName = CGXCategoryChannel;
+			productReference = A64F915B6BB4A9DE8901B848F3D45952 /* libCGXCategoryChannel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D485202F9A4BCDEFE31E20C34BB18E83 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E179F625901FD17A984E502AA0BD0606 /* CGXCategoryChannel */,
+				081D37EC77D20448533866A8DBA9EA49 /* Pods-CGXCategoryChannel-OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		488823D420CE2DCE89E358EC4638C4FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				578A3832A34E3D7FE32A798932F5D35D /* CGXCategoryChannel-dummy.m in Sources */,
+				4CA98C7A062590DF932EBD7DE2AFA2C9 /* CGXCategoryChannelCell.m in Sources */,
+				5E1A02DCFECFFCBC50E9B284DE57BA81 /* CGXCategoryChannelControll.m in Sources */,
+				DDBC49EF350574D82B3A0F4749D5AB85 /* CGXCategoryChannelDragCollectionView.m in Sources */,
+				CA4287B4FA4FD8F771B7359968A53CB8 /* CGXCategoryChannelHeaderView.m in Sources */,
+				CA54FA638F504797661F6B8C37E6DC4D /* CGXCategoryChannelModel.m in Sources */,
+				0051D04F8F742E9CF6046E4F15F4F674 /* CGXCategoryChannelMoreControll.m in Sources */,
+				9737B2FCB93B7B1E38CAE33483386A58 /* CGXCategoryChannelView.m in Sources */,
+				89C5249AD3756D0E4668E899B51221A7 /* CGXCategoryChannelViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7516FCAC225E130391090A92863633B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB53DD44C14E7A8B213017A9EED4040 /* Pods-CGXCategoryChannel-OC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEA78B61B3F8465940976C58BD889FE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CGXCategoryChannel;
+			target = E179F625901FD17A984E502AA0BD0606 /* CGXCategoryChannel */;
+			targetProxy = DE3D93CCF5344A0D0752DD08F5C8C8C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0FE7F25F69C3CDED3BC7EC853D1257E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 656067804CD55E9A62FB886E478AFD43 /* CGXCategoryChannel.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CGXCategoryChannel/CGXCategoryChannel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CGXCategoryChannel;
+				PRODUCT_NAME = CGXCategoryChannel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		832B87F08C4246D1D2273C72CDB3A578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8B5330D7EBF28D57FE07FB29E298759 /* Pods-CGXCategoryChannel-OC.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE1BBD8A89B7B82D79A91FB8AA6E0ACC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 614D6FCC95568BCF210451806E637706 /* CGXCategoryChannel.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CGXCategoryChannel/CGXCategoryChannel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CGXCategoryChannel;
+				PRODUCT_NAME = CGXCategoryChannel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF707F009043F43EA2F024D6FE87D7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2996058E6F1A8B5486103F52D7D4C542 /* Pods-CGXCategoryChannel-OC.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5DF9AFA3B57C2A6292B0141D62F9A79D /* Build configuration list for PBXNativeTarget "Pods-CGXCategoryChannel-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF707F009043F43EA2F024D6FE87D7EB /* Debug */,
+				832B87F08C4246D1D2273C72CDB3A578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D680670A700F4336D273E6589DEAC1F8 /* Build configuration list for PBXNativeTarget "CGXCategoryChannel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0FE7F25F69C3CDED3BC7EC853D1257E9 /* Debug */,
+				DE1BBD8A89B7B82D79A91FB8AA6E0ACC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

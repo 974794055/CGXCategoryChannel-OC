@@ -1,0 +1,1 @@
+../../../../../CGXCategoryChannel/CGXCategoryChannelHeaderView.h
